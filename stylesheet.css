@@ -1,0 +1,15 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#display>* {
+    border: 1px dashed black;
+}
+#framerate {
+    font-size:75%;
+    padding:4px;
+    position:absolute;
+}
